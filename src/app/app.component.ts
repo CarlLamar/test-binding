@@ -14,8 +14,8 @@ export class AppComponent {
   clientName: string = 'Carl';
 
   //STYLE BINDING, CSS BINDING
-  appliedCSSClass = 'green';
-  notappliedCSSClass = true;
+  appliedWDClass = 'green';
+  notappliedWDClass = true;
   myColor = 'red';
 
   // for two-wy data binding demo
