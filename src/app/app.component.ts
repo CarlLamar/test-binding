@@ -6,8 +6,8 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  appName = 'POKNAT';
-  clientName: string = 'Andrew';
+  appName = 'Data Binding';
+  clientName: string = 'Carl';
   appliedWDClass = 'red';
   notappliedWDClass = 'false';
   myColor = 'violet';
