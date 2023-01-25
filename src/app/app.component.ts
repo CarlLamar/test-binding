@@ -6,11 +6,22 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  appName = 'Data Binding';
+  name = 'Angular ' + VERSION.major;
+  //Interpolation
+  appName = ' This is a One-way Data binding';
+
+  //Property Binding
   clientName: string = 'Carl';
-  appliedWDClass = 'red';
-  notappliedWDClass = 'false';
-  myColor = 'violet';
+
+  //STYLE BINDING, CSS BINDING
+  appliedCSSClass = 'green';
+  notappliedCSSClass = true;
+  myColor = 'red';
+
+  // for two-wy data binding demo
+  myName = '';
+
+  // Event Binding
   showData($event: any) {
     console.log('button is clicked!');
     if ($event) {
